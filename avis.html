@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avis</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Donnez votre Avis</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Vos informations personnelles :</legend>
+                <label for="nom">Nom :</label><br>
+                <input type="text" id="nom" name="nom" required><br><br>
+                
+                <label for="prenom">Prénom :</label><br>
+                <input type="text" id="prenom" name="prenom" required><br><br>
+                
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label>Sexe :</label><br>
+                <input type="radio" id="homme" name="sexe" value="homme">
+                <label for="homme">Homme</label>
+                <input type="radio" id="femme" name="sexe" value="femme">
+                <label for="femme">Femme</label><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Choisissez le site que vous souhaiteriez le plus visiter :</legend>
+                <input type="radio" id="tajMahal" name="site" value="Taj Mahal">
+                <label for="tajMahal">Le Taj Mahal</label><br>
+                <input type="radio" id="chutesNiagara" name="site" value="Chutes du Niagara">
+                <label for="chutesNiagara">Les Chutes du Niagara</label><br>
+                <input type="radio" id="statueLiberte" name="site" value="Statue de la Liberté">
+                <label for="statueLiberte">La Statue de la Liberté</label><br>
+                <input type="radio" id="pyramidesEgypte" name="site" value="Pyramides d'Égypte">
+                <label for="pyramidesEgypte">Les Pyramides d'Égypte</label><br>
+                <input type="radio" id="museeLouvre" name="site" value="Musée du Louvre">
+                <label for="museeLouvre">Le Musée du Louvre</label><br>
+            </fieldset>
+            <button type="submit">Soumettre</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sites Historiques</p>
+        <div class="contact">
+            <p>Contact: +221776818193</p>
+            <p>E-mail: paplunefall2020@gmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>
+
